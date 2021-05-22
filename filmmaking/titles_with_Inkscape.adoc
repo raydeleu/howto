@@ -17,9 +17,23 @@ A very simple way to create titles is to create images with a transparant backgr
 
 . Add a new layer by clicking the *+* sign in the layer panel. If the layer panel is not visible press (on Windows) kbd:[Shift] - kbd:[CTRL] - kbd:[L]. Enter a descriptive name for the layer. If you have several titles in your video you can use names like "Title", "First chapter", "Name of interviewed person" et cetera. By hiding and showing the layers you can generate several title images using the same file. 
 
+. Select the default layer that is below your text layer and rename this to "Background". Click on the colour black in the bottom line and draw a rectangle that cover the complete image. Alternatively you can export an image from your movie and paste that on this layer so that you can judge how your text will look once you place it on top of your video. 
+
+. Add a layer below the background you just created and leave this white. That way you can see for example drop shadows below text elements if you have added these. 
+
+. Select the text layer
+
 . Press kbd:[T] and enter the text for your title
 
 . Press kbd:[Shift] - kbd:[CTRL] - kbd:[T] to change the font and size of the text. Note that you have to select the text first by double clicking on the text. Furthermore you have to press *Apply* before you see the changed format in your design. 
+
+. Select the text and on the bottom row click on the colour for your text. 
+
+. You can draw rectangles or similar shapes and put these below your text to separate the text more clearly from the video. 
+
+. If you want to add a drop shadow, select the item that you want to cast a shadow, select *Filter* and select *Shadows and Glows*. 
+
+
 
 
 
