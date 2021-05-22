@@ -17,6 +17,14 @@ A very simple way to create titles is to create images with a transparant backgr
 
 . Add a new layer by clicking the *+* sign in the layer panel. If the layer panel is not visible press (on Windows) kbd:[Shift] - kbd:[CTRL] - kbd:[L]. Enter a descriptive name for the layer. If you have several titles in your video you can use names like "Title", "First chapter", "Name of interviewed person" et cetera. By hiding and showing the layers you can generate several title images using the same file. 
 
+. Press kbd:[T] and enter the text for your title
+
+. Press kbd:[Shift] - kbd:[CTRL] - kbd:[T] to change the font and size of the text. Note that you have to select the text first by double clicking on the text. Furthermore you have to press *Apply* before you see the changed format in your design. 
+
+
+
+
+
 
 
 
