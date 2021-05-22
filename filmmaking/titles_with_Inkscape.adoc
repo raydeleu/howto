@@ -15,7 +15,9 @@ A very simple way to create titles is to create images with a transparant backgr
 
 . An alternative approach is to go to *File*, *Document properties*, select the tab for *Page* and search for the correct size. Note that you will need to scroll way down to find the video formats. 
 
-. Add a new layer by clicking the *+* sign in the layer panel. If the layer panel is not visible press (on Windows) kbd:[Shift] - kbd:[CTRL] - kbd:[L]. 
+. Add a new layer by clicking the *+* sign in the layer panel. If the layer panel is not visible press (on Windows) kbd:[Shift] - kbd:[CTRL] - kbd:[L]. Enter a descriptive name for the layer. If you have several titles in your video you can use names like "Title", "First chapter", "Name of interviewed person" et cetera. By hiding and showing the layers you can generate several title images using the same file. 
+
+
 
 
 
