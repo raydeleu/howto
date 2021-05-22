@@ -33,6 +33,10 @@ A very simple way to create titles is to create images with a transparant backgr
 
 . If you want to add a drop shadow, select the item that you want to cast a shadow, select *Filter* and select *Shadows and Glows*. 
 
+. To create the final image, select only the layer that you want to export - so for example a single text layer - , go to *File*, *Export PNG image*. Make sure that in the separate dock that appears you select to export the complete *Page*. ALthough it seems as if your image still has a white background, the image will be transparent except for the object or text on the selected layer. If you find this confusing, go to *File*, *Document Properties*, *Page* and check *Checkerboard background*. 
+
+
+
 
 
 
