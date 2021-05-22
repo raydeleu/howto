@@ -10,6 +10,10 @@ A very simple way to create titles is to create images with a transparant backgr
 
 . Install Inkscape, downloading the installation package for your operating system from https://inkscape.org/. 
 
+. Start the program. This will automatically create a new file for you, but probably with a standard A4 format. To create an image in the proper format the most practical way is to select *File*, *Create new from template*. In the dialog search for *video* and adapt the resolution to your video settings. In my case I had to select *HDTV" to get 1920 by 1080 pixels. 
+
+
+
 
 
 
