@@ -1,4 +1,5 @@
 = Creating video titles with Inkscape
+:experimental: 
 
 == Why create titles in Inkscape
 If you are creating videos, vlogs or short films you will do this often in a video editor. Not all video editors have a good system to create titles. Furthermore you are often somewhat limited in the type of titles. For example, if you use iMovie or Final Cut Pro, you really have to improvise a lot if you have specific whishes how your titles, credits or annotations should look. Some of these packages offer (paid) add-on's, but if you use freeware of open source software such as Blender or ShotCut you are on your own. 
@@ -11,6 +12,14 @@ A very simple way to create titles is to create images with a transparant backgr
 . Install Inkscape, downloading the installation package for your operating system from https://inkscape.org/. 
 
 . Start the program. This will automatically create a new file for you, but probably with a standard A4 format. To create an image in the proper format the most practical way is to select *File*, *Create new from template*. In the dialog search for *video* and adapt the resolution to your video settings. In my case I had to select *HDTV" to get 1920 by 1080 pixels. 
+
+. An alternative approach is to go to *File*, *Document properties*, select the tab for *Page* and search for the correct size. Note that you will need to scroll way down to find the video formats. 
+
+. Add a new layer by clicking the *+* sign in the layer panel. If the layer panel is not visible press (on Windows) kbd:[Shift] - kbd:[CTRL] - kbd:[L]. 
+
+
+
+
 
 
 
