@@ -60,6 +60,32 @@ width works only in PanDoc, not on GitHub.
 
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="drawing" width="100"/>
 
+## Code
+
+```
+Indent 4 spaces or use three ```  before and after the code
+
+with ```javascript you can add syntax highlighting
+
+```
+
+```javascript
+function fancyAlert(arg) {
+  if(arg) {
+    $.facebox({div:'#foo'})
+  }
+}
+```
+## Inline code
+```
+I think you should use an
+`<addr>` element here instead.
+```
+
+I think you should use an
+`<addr>` element here instead.
+
+
 ## Blockquotes
 As Kanye West said:
 ```
@@ -70,11 +96,4 @@ As Kanye West said:
 > We're living the future so
 > the present is our past.
 
-## Inline code
-```
-I think you should use an
-`<addr>` element here instead.
-```
 
-I think you should use an
-`<addr>` element here instead.
