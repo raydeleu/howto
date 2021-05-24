@@ -54,8 +54,12 @@
 ```
 ![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width=500}
 
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="drawing" width="100"/>
 ```
 
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){: width="100"}
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+
+<img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="drawing" width="100"/>
+
 
 
