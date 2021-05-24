@@ -1,12 +1,12 @@
-= Quick Reference for Markdown
+# Quick Reference for Markdown
 
-== Headers
+## Headers
 
  #    header 1
  ##   header 2
  ###  header 3
  
-== Emphasis 
+## Emphasis 
 
 
  *This text will be italic*
@@ -17,9 +17,9 @@
 
  _You **can** combine them_
 
-== Lists
+## Lists
 
-=== Unordered
+### Unordered
 ```
   * apples
   ** red apples
@@ -34,7 +34,7 @@
 * oranges
 * pears
  
-=== Ordered
+### Ordered
 ```
  . apples
  .. red apples
@@ -49,13 +49,13 @@
 . oranges
 . pears
 
-== Images
+## Images
 
 ```
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 Format: ![Alt Text](url)
 ```
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 Format: ![Alt Text](url)
 
