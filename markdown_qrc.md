@@ -52,14 +52,29 @@
 ## Images
 
 ```
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width=500}
+![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png){width=500} 
+width works only in PanDoc, not on GitHub. 
 
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="drawing" width="100"/>
 ```
 
-![GitHub Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
-
 <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="drawing" width="100"/>
 
+## Blockquotes
+As Kanye West said:
+```
+> We're living the future so
+> the present is our past.
+```
 
+> We're living the future so
+> the present is our past.
 
+## Inline code
+```
+I think you should use an
+`<addr>` element here instead.
+```
+
+I think you should use an
+`<addr>` element here instead.
