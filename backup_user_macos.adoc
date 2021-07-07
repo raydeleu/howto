@@ -1,0 +1,23 @@
+= Backup user data on MacOS
+
+== Purpose
+If you want to back-up your MacOS machine with the intention to restore it completely after maintenance the best approach is to use Apple Time Machine. However, if you want to restore your data to a different machine and then pick and choose which files to transfer, a different approach might help. This howto document explains how to perform this task with Disk Utility. 
+
+== Concept
+The concept of the approach with disk utility is to create a disk image of a folder. This image can be mounted on any other MacOS machine and opened like a folder. From there your can copy the data to a new location. 
+
+The following steps are required: 
+
+1. Get access to the machine with an administrator account. If you have the login credentials you can create a new administrator user to perform these tasks. Note that it is recommended to do this from a different account than the one you are migrating.
+
+2. Open Finder and choose "Go", "Computer" (SHIFT-CMD-C). Then select the drive on which the "Users" file is located and add this to your favourites in Finder. 
+
+3. Select the user folder that you want to migrate, right click (sometimes clicking or tapping with two fingers will do this trick) and select "Get Info". 
+
+4. Click on the padlock in the lower right corner of the Info window to unlock the options to change file permissions.
+
+5. Add the administrator account in the list of users of the selected folder and give permissions to "Read and Write". Click on the gear and select "Apply to enclosed items". Enter the administrator password to proceed. This operation can take a while when the folders contain a lot of files.  
+
+6. Open "Disk Utility" 
+
+7. Choose "File", "New Disk Image", "Create Disk Image from Folder". Move to the "Users" folder (now in the favourites of your Finder) and select the folder 
