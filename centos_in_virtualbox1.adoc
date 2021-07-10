@@ -11,7 +11,50 @@ At the site https://www.virtualbox.org you can also download the extension pack 
 == Download image of the guest OS
 Download an installation image for the OS you want to run on your virtual machine. For CENTOS these can be found at https://www.centos.org. For 32bit you have to download the "i386" version. Download the "EveryThing" iso-image. Note that this image is too large to burn to a DVD with 8.3Gb. The "minimal" install does fit on a DVD, but this version does not even provide a graphical interface to your client, just a terminal prompt. 
 
-== Start the VirtualBox manager
+== Create the virtual machine
 After installation you can start the VirtualBox Manager. 
+
+=== Create a new VM
+Choose "New" to create a completely new VM. Enter: 
+
+* Name for your new VM (this will be shown i the list of VMs in the VirtualBox Manager)
+* A folder where the VMs should be stored
+* The type of OS (Windows, OSX, Linux, Solaris, other)
+* Version of the OS. 
+
+For CENTOS your can choose Red Hat 32 bit, as CENTOS is almost identical to Red Hat Linux. 
+
+=== Add memory
+In the next dialog, add the amount of memory that you want the VM to use. In this case the recommendation is 1024 MB. If your host has sufficient memory available you can crank this up. 
+
+=== Create virtual hard disk
+VirtualBox now asks if a hard disk should be created. Choose "new virtual hard disk", and then format "VDI". Choose "dynamic allocation" and then the size for the new hard disk. 
+
+After this step, VirtualBox shows the new entry in the left part of the window. 
+
+=== Link the image
+Choose "settings" and select "Storage". Add a "new optical station" and select the file of the ISO you downloaded earlier. 
+
+=== Choose settings for display
+In some cases, if you want to use graphics intensive software in your VM, it makes sense to adapat the settings for the display. Here you can crank up the amount of graphics memory that is reserved for your VM. In my case, on a machine with an NVIDIA Geforce GTX970 the highest amount of memory that could be allocated to the VM was 128 MB. The other settings can often remain untouched. 
+
+== Start the VM
+Now that your virtual machine is created, you can start it. It will start an installation procedure very similar to the installation procedure when installing an OS on your machine. Typically the screen has a low resolution during this install. This can be changed at a later stage. 
+
+During the installation you have to respond to the normal questions such as define a user, a root password, language settings, time zone et cetera. When your virtual machine is installed you can reboot the VM and login with your new credentials. When you have allowed a network connection you will even be able to browse the internet from your VM. Note that you can choose an ethernet connection for the internet. The VirtualBox software will provide the connection to the outside world, even if the host machine is connected to the internet via Wifi. 
+
+== Install development software
+In my case I wanted to develop software with PureBasic. Note that you have to choose an old version of the development software as the CENTOS 32 bit is also quite old. Instead of using the latest 5.73 release of PureBasic I had to choose the 5.42 release. 
+
+
+
+
+
+
+
+
+
+
+
 
 
