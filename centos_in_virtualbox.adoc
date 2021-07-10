@@ -1,0 +1,17 @@
+= Creating a CENTOS development environment in VirtualBox
+
+To create a CENTOS 32 bit development environment (intended voor PureBasic development) the following steps are required: 
+
+== Install Oracle Virtual Box
+Install the open version of VirtualBox that you can download at https://www.virtualbox.org. Download the version that fits your operating system. In my case this was a Windows host. 
+
+== Install the Extension Pack
+At the site https://www.virtualbox.org you can also download the extension pack to VirtualBox. The extension pack is required if you want to have support for USB2.0, USB3.0 devices, disk encryption, NVMe and PXE boot for Intel cards. 
+
+== Download image of the guest OS
+Download an installation image for the OS you want to run on your virtual machine. For CENTOS these can be found at https://www.centos.org. For 32bit you have to download the "i386" version. Download the "EveryThing" iso-image. Note that this image is too large to burn to a DVD with 8.3Gb. The "minimal" install does fit on a DVD, but this version does not even provide a graphical interface to your client, just a terminal prompt. 
+
+== Start the VirtualBox manager
+After installation you can start the VirtualBox Manager. 
+
+
