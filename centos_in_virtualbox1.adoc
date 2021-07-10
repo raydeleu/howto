@@ -48,6 +48,9 @@ In the screen of the VM (so in my case inside CENTOS) you can go to "Application
 == Install development software
 In my case I wanted to develop software with PureBasic. Note that you have to choose an old version of the development software as the CENTOS 32 bit is also quite old. Instead of using the latest 5.73 release of PureBasic I had to choose the 5.42 release. 
 
+== Stop the virtual machine
+To stop the virtual machine, use the steps you would normally take to power your system down. So choose "Power" (the icon at the right top) and choose "power off". 
+
 
 
 
