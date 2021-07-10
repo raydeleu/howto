@@ -43,6 +43,8 @@ Now that your virtual machine is created, you can start it. It will start an ins
 
 During the installation you have to respond to the normal questions such as define a user, a root password, language settings, time zone et cetera. When your virtual machine is installed you can reboot the VM and login with your new credentials. When you have allowed a network connection you will even be able to browse the internet from your VM. Note that you can choose an ethernet connection for the internet. The VirtualBox software will provide the connection to the outside world, even if the host machine is connected to the internet via Wifi. 
 
+In the screen of the VM (so in my case inside CENTOS) you can go to "Applications", "System Tools", "Settings". If you then choose "Devices", "Displays" you can select the resolution for your VM. After choosing a new resolution you can adapt the size of the window to the size of the VM. To achieve this you have to move the mouse out of the VM (using the right CTRL key) and then select the appropriate menu entry in the VirtualBox window surrounding the VM. 
+
 == Install development software
 In my case I wanted to develop software with PureBasic. Note that you have to choose an old version of the development software as the CENTOS 32 bit is also quite old. Instead of using the latest 5.73 release of PureBasic I had to choose the 5.42 release. 
 
