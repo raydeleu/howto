@@ -4,13 +4,15 @@
 == Install miniconda
 The installation packages for miniconda for Windows, Linux and MacOS can be found at the following web-location: 
 
+[source]
+----
 https://docs.conda.io/en/latest/miniconda.html
+----
 
-== Install Cadquery 
-After installing miniconda, open a shell with miniconda environment. 
+The installation on MacOS and Windows is completely automated. In both operating environments it is probably best to install it only for the current user. 
 
-=== Windows
-On Windows the conda shell can be opened from the start-menu. If you installed the latest installation package for Miniconda3 there will be an item called Anaconda3 in the start-menu that contains the item "Anaconda prompt". Use the following command to install cadquery: 
+== Install CadQuery and CQ-editor on Windows
+After installing miniconda, open a shell with miniconda environment. On Windows the conda shell can be opened from the start-menu. If you installed the latest installation package for Miniconda3 there will be an item called Anaconda3 in the start-menu that contains the item "Anaconda prompt". Use the following command to install cadquery: 
 
 [source, bash]
 ----
@@ -26,8 +28,23 @@ import cadquery
 cadquery.Workplane('XY').box(1,2,3).toSvg()
 ----
 
+You can leave the prompt with 
 
+[source, python]
+---- 
+exit()
+----
+
+Next install the cq-editor. 
+
+[source, python]
+---- 
 conda install -c cadquery -c conda-forge cq-editor=master
+----
+
 
 start the cq-editor with the command "cq-editor"
 
+
+== Install CadQuery and CQ-editor on MacOS
+The installation on MacOS is almost completely identical to the installation on Windows. cq-editor
