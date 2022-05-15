@@ -1,0 +1,15 @@
+Install miniconda
+
+https://docs.conda.io/en/latest/miniconda.html
+
+conda install -c cadquery -c conda-forge cadquery=master
+
+test installation
+$ python
+$ import cadquery
+$ cadquery.Workplane('XY').box(1,2,3).toSvg()
+
+conda install -c cadquery -c conda-forge cq-editor=master
+
+start the cq-editor with the command "cq-editor"
+
