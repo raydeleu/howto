@@ -28,6 +28,20 @@ import cadquery
 cadquery.Workplane('XY').box(1,2,3).toSvg()
 ----
 
+
+open conda prompt
+
+----
+conda -V   check version
+conda create --name cqtest python=3.8
+----
+
+creates a virtual environment "cqtest" and installs python and pip into it, 
+
+----
+conda activate cqtest
+----
+
 You can leave the prompt with 
 
 [source, python]
@@ -48,3 +62,32 @@ start the cq-editor with the command "cq-editor"
 
 == Install CadQuery and CQ-editor on MacOS
 The installation on MacOS is almost completely identical to the installation on Windows. cq-editor
+
+
+pip install cadquery2
+```
+conda install -c cadquery -c conda-forge cadquery=master
+```
+pip install cadquery-server
+
+```
+conda install -c cadquery -c conda-forge cq-editor=master
+```
+
+
+On MacOS
+
+
+install miniconda (latest release)
+
+open terminal, check with 
+conda -V
+
+conda create --name cqtest python
+
+
+to start working with cadquery from VS Code: 
+
+open terminal
+conda activate cqtest
+cq-server
